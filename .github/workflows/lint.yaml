@@ -13,7 +13,7 @@ jobs:
       - name: Clone Repository
         uses: actions/checkout@v4
       - name: Install HTMLHint
-        run: npm install --save-dev HTMLHint
+        run: npm install --save-dev htmlhint
       - name: Lint HTML Files
         run: npx htmlhint "**/*.html"
       - name: Install Stylelint
