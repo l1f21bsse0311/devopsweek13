@@ -1,0 +1,6 @@
+{
+    "rules":
+      {
+        "selecter-type-case": "lower"
+      }
+}
